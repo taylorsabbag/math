@@ -1,0 +1,19 @@
+:root {
+    --background-color: #2A2B2A;
+    --primary-color: #996888;
+    --secondary-color: #5E4955;
+    --tertiary-color: #C99DA3;
+    --text-color: hsl(210, 26%, 89%);
+    --success-color: #0f0;
+    --error-color: #ff0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
